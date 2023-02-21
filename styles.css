@@ -1,0 +1,78 @@
+@keyframes epilepsy {
+    0% {background-color: red;}
+    25%{background-color:yellow;}
+    50%{background-color:green;}
+    75%{background-color:blue;}
+    100% {background-color: white;}
+}
+
+body{
+    animation: epilepsy 1s infinite;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 70px;
+    padding: 20px;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+
+img:hover{
+    transform: scale(1.5) rotate(360deg) rotate(360deg) rotate(360deg)
+    rotate(360deg) rotate(360deg) rotate(360deg) rotate(360deg) rotate(360deg) rotate(360deg);
+}
+
+.container{
+    padding: 30px;
+}
+
+.sec{
+    display: flex;
+}
+
+
+.sec-1{
+    gap: 10px;
+    align-items: center;
+}
+
+.name{
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.sec-1 p{
+    margin: 0;
+}
+
+.divider{
+    height: 2px;
+    border: none;
+    background-color: aqua;
+}
+
+.divider-1{
+    background-color: yellow;
+    margin-top: 5%;
+}
+
+.sec-general{
+    justify-content: space-between;
+}
+
+.sec-title{
+    color: yellow;
+}
+
+.sec-explanation{
+    width: 85%;
+}
+
+.three-chunks{
+    display: flex;
+    gap: 20%;
+}
